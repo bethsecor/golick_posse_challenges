@@ -1,4 +1,4 @@
-require_relative 'person'
+	require_relative 'person'
 
 class People
   attr_reader :db
