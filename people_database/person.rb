@@ -1,5 +1,8 @@
 class Person
-  attr_reader :email, :state
+  attr_reader :email,
+              :state,
+              :first_name,
+              :last_name
 
   def initialize(first_name, last_name, email, state)
     @first_name = first_name
